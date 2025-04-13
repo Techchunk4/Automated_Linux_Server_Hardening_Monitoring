@@ -1,0 +1,12 @@
+groups:
+- name: hardening_alerts
+  rules:
+  - alert: SSHD_RootLogin_Enabled
+    expr: linux_hardening_compliance{check="ssh_root_login"} == 0
+    for: 5m
+    labels:
+      severity: "critical"
+      tier: "security"
+    annotations:
+      summary: "Root SSH login allowed (CIS 5.2.8 Violation)"
+      playbook: "https://github.com/yourrepo/playbooks/ssh_hardening.md"

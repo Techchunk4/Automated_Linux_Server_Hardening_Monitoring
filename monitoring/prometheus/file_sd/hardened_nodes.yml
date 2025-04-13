@@ -1,0 +1,6 @@
+- targets:
+    - "node1.yourdomain.com:9000"
+    - "node2.yourdomain.com:9000"
+  labels:
+    environment: "prod"
+    hardening_level: "cis_level2"
