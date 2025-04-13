@@ -34,7 +34,7 @@ Docker (optional, for ELK stack).
 1. Clone & Deploy
 bash
 Copy
-git clone https://github.com/yourusername/linux-hardening.git  
+git clone https://github.com/Techchunk4/Automated_Linux_Server_Hardening_Monitoring
 cd linux-hardening  
 
 # Run the hardening script (Bash)  
@@ -89,7 +89,7 @@ Testing:
 
 Run shellcheck on scripts.
 
-Validate with lynis --auditor "Your Name".
+Validate with lynis --auditor "Abdelkader".
 
 Documentation: Update docs/adr/ for major changes (Architecture Decision Records).
 
