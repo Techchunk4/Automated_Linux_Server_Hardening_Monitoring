@@ -124,8 +124,3 @@ sudo ./audit/ship_logs.sh --target=elk
 
 ---
 
-## 💡 Why This Stands Out in 2025
-
-- ✅ **Production-Ready**: Designed for enterprise-scale deployments  
-- 🔍 **Observability-First**: Metrics + logs for audit trails  
-- 🧩 **GitOps Compliance**: All configs are version-controlled  
